@@ -1,13 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
 .Header{
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 8px 0px;
-
+    /* flex: 1 0 1; */
 }
 .Footer{
     background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 24px 16px;
+    /* flex: 1; */
 }
 a{
     text-decoration: none;
@@ -40,25 +52,34 @@ a{
     align-items: center;
 }
 .hero{
+    display: flex;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
     flex-wrap: wrap;
 }
 .subhero{
+    display: flex;
     color: #E7E5EB;
     font-size: 18px;
     flex-wrap: wrap;
 }
+.herobutton{
+    margin-top: 16px;
+    margin-bottom: auto;
+}
 button{
     background-color: #3882F6;
     color: white;
+    border-radius: 6px;
+    border: white solid 1px;
 }
 .sec2{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
+    padding: 24px 0px;
 }
 .sec21{
     color: #1F2937;
@@ -78,6 +99,7 @@ button{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 270px;
 }
 .sec3{
     display: flex;
@@ -85,27 +107,36 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #E7E5EB;
+    padding: 24px 0px;
 }
 .quoted{
     display: flex;
-    justify-content: flex-end;
+    align-self: center;
 }
 .sec4{
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px 0px;
 }
 .sec40{
     background-color: #3882F6;
     display: flex;
+    justify-content: space-between;
     padding: 16px 24px;
+    gap: 48px;
 }
 .sec401{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    color: white;
+}
+.call{
+    display: flex;
+    flex-wrap: wrap;
 }
 .sec402{
     display: flex;
@@ -113,3 +144,11 @@ button{
     justify-content: center;
     align-items: center;
 }
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    height: 50px;
+    width: auto;
+}
+

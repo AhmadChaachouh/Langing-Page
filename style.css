@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    width: 100hh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -99,7 +100,6 @@ button{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 270px;
 }
 .sec3{
     display: flex;

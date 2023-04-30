@@ -94,6 +94,8 @@ button{
 }
 .sec22{
     display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .sec221{
     display: flex;
@@ -150,8 +152,4 @@ button{
     font-style: italic;
     height: 50px;
     width: auto;
-}
-div{
-    padding-right: 10px;
-    padding-left: 10px;
 }

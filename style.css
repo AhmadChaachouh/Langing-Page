@@ -151,4 +151,7 @@ button{
     height: 50px;
     width: auto;
 }
-
+div{
+    padding-right: 10px;
+    padding-left: 10px;
+}
